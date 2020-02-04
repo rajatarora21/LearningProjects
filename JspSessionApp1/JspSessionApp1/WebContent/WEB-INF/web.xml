@@ -1,0 +1,28 @@
+<web-app>
+	<servlet>
+		<servlet-name>jsp1</servlet-name>
+		<jsp-file>/WEB-INF/pages/home.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>jsp1</servlet-name>
+		<url-pattern>/url1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>jsp2</servlet-name>
+		<jsp-file>/WEB-INF/pages/evenJsp.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>jsp2</servlet-name>
+		<url-pattern>/eurl</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>jsp3</servlet-name>
+		<jsp-file>/WEB-INF/pages/oddJsp.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>jsp3</servlet-name>
+		<url-pattern>/ourl</url-pattern>
+	</servlet-mapping>
+</web-app>
